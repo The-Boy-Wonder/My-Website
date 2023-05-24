@@ -1,0 +1,129 @@
+/* Body and Typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #eee;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    background-color: #ccc;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 1em;
+  }
+  
+  /* Overview Section */
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    flex-basis: calc(33.33% - 1em);
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 1.5em;
+    margin: 0.5em 0 0;
+  }
+  
+  /* Recent Orders Section */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 0.5em;
+  }
+  
+  /* Top Selling Products Section */
+  ol {
+    list-style: decimal;
+    margin-left: 2em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  

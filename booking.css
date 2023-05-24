@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.background{
+	background-image: url(Images/batlogo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.background a{
+	color: white;
+	margin-top: 20px
+
+}
+ 
+
+header {
+	display: flex;
+	background-color: #062007;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+header .logo{
+	margin-left: 500px;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	margin: 20px;
+}
+
+form {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #000000;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+form label{
+	color: white;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="time"], textarea {
+	background-color: rgba(255, 255, 255, 0.176);
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	width: 100%;
+}
+/* 
+input[type="submit"] {
+	background-color: #c71d1d;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+} */
+
+input[type="submit"]{
+	background-color: #c71d1d;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+	
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Management</title>
+  <link rel="stylesheet" href="appointments.css">
+</head>
+<body>
+  <header>
+    <h1>My Appointments</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="website.html">Home</a></li>
+      <li><a href="#">Appointments</a></li>
+      <li><a href="booking.html">Add Appointment</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section>
+      <h2>Upcoming Appointments</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Client</th>
+            <th>Location</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023-05-01</td>
+            <td>10:00 AM</td>
+            <td>John Smith</td>
+            <td>123 Main St, Anytown</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>2023-05-02</td>
+            <td>2:00 PM</td>
+            <td>Jane Doe</td>
+            <td>456 Broad St, Othertown</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+    <section>
+      <h2>Add Appointment</h2>
+      <form>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        
+        <label for="client">Client:</label>
+        <input type="text" id="client" name="client">
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        
+        <button type="submit">Add Appointment</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Appointment Management</p>
+  </footer>
+</body>
+</html>
